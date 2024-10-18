@@ -23,5 +23,6 @@ function validateForm() {
 
     // If validation is successful
     alert("Form Submitted Successfully!");
+    this.reset();
     return true;
 }
